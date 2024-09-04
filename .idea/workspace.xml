@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Budget_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/methods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/methods/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/methods/checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/methods/http_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/methods/moneybox_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/DELETE/test_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/GET_ALL/test_get_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/GET_BY_ID/test_get_by_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/02a0700c-484c-422d-a2d4-561ae7c02853-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/02da2c23-f38f-4c62-84c0-5d1d84703472-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/06000a0b-1218-4dc6-aede-a94f1e74385e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/07e2076f-8c30-43f2-a87f-ed044cdfcf82-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/0c84057d-2061-447b-9c95-144088c602fe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/126cb866-6742-4de7-84e2-11c141c8dc88-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/18cdea71-32f6-4295-a482-d1a0ede1d9e5-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/1983385b-df8d-4b28-8166-0f74d006588b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/1f60de00-acff-471b-bf62-c56938291401-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/27e2f129-1d86-4047-aec5-fd9d8d0d14da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/2affe59a-b53b-4cd7-a0ef-aa45d757d4ef-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/2f2ccd01-db71-4e3d-a946-3f62a7d7d98b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/3cd1d4df-fe6d-46de-9d8a-52fb26e2d25e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/46c14eef-a4d1-4c1e-b5e2-cc2b16da82d2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/46ccecbd-1ec6-4c24-a246-b49589325a1c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/47678fd8-5e78-4413-98a1-b3fa64a871ec-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/5380ee3b-721f-48c4-90be-d041fb0ebc18-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/5afdb3ab-ab5e-4ca7-b845-c8d6fb7ba7fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/5b800bc4-17cd-454d-bfe5-cef5b2c11335-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/5bfb0e73-47b2-4f00-b371-a62b7b511510-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/6186699b-db97-42b8-a886-332f3ee31bf4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/6783c6c2-c11f-4f8d-a2a4-b3d5332e74fa-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/68cf56f1-22c7-4dfc-b367-59314c58da75-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/7b7f8471-14e7-4e74-9c2a-234490367398-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/7bd346f9-eff2-4ad0-8c6b-80327d95461c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/827bda1d-4f66-44b6-a21c-838844556000-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/84e0e85d-f00a-4045-b02b-f147f4ec767d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/8614a2ed-8b9e-44f9-993d-df4758b4b09a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/92226b6d-8394-4ff0-b194-91e0350d645d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/9506e50a-b0fa-4ae8-b667-22b2d92cd106-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/967bbad2-db6f-485c-afaf-98410736837e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/b6bb0d6c-98a5-44ef-a943-91648e898b3a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/c0b4d4f1-b30a-4a18-864e-594c0d4ce962-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/c5c3f8b7-55b1-466d-b9f3-cbc2c68bb367-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/c67fc6f5-f79a-49fd-b6d4-783016928b7c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/c7440f0d-77e6-4552-8cf2-873fc64a3fd1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/cc5d52af-2dfb-488d-904f-250c44029799-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/d582297e-9864-4577-8adf-43ef0d58a0b5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/d6f1086b-fdd8-4adc-a64a-15e807e16fcb-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/d7eae50d-dd64-4ac6-95b4-3ae05e6990c5-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/e271ef7f-34f0-4707-8b48-bc370b7a1913-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/e5c7613e-81c0-49c4-8123-669648f21cb6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/e6c2cc8e-cf6c-4a84-b9ad-6678b671f760-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/f5787017-f5df-46fd-a256-562f4d94ce79-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/allure_results/f622bac9-0de0-43d4-a99c-55502ee017e7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_common_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_currency_id_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_goal_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_is_archived_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_name_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/PATCH/test_to_date_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_amount_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_currency_id_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_goal_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_name_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_to_date_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moneybox/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2krnVThrxLxD1JgCpAEIKHIvtEl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_amount.TestAmount.executor": "Run",
+    "Python tests.Python tests for test_common_check.TestCommon.test_01.executor": "Run",
+    "Python tests.Python tests for test_common_patch.TestCommonPatch.executor": "Run",
+    "Python tests.Python tests for test_common_patch.TestCommonPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_currency_id.TestCurrencyId.test_01.executor": "Run",
+    "Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.executor": "Run",
+    "Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_delete.TestDelete.test_01.executor": "Run",
+    "Python tests.Python tests for test_get_all.TestGetAll.executor": "Run",
+    "Python tests.Python tests for test_get_all.TestGetAll.test_01.executor": "Run",
+    "Python tests.Python tests for test_get_by_id.TestGetById.executor": "Run",
+    "Python tests.Python tests for test_get_by_id.TestGetById.test_01.executor": "Run",
+    "Python tests.Python tests for test_goal.TestGoal.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_02.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_03.executor": "Run",
+    "Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.executor": "Run",
+    "Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.test_01.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.test_02.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.test_01.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.test_08.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.test_03.executor": "Run",
+    "Python tests.Python tests for test_param_for_look.MyTest.test_001.executor": "Run",
+    "Python tests.Python tests for test_param_for_look.TestMy.test_001.executor": "Run",
+    "Python tests.Python tests for test_to_date.TestToDate.test_01.executor": "Run",
+    "Python tests.Python tests for test_to_date_patch.TestToDate.test_01.executor": "Run",
+    "Python tests.Python tests in GET_ALL.executor": "Run",
+    "Python tests.Python tests in GET_BY_ID.executor": "Run",
+    "Python tests.Python tests in PATCH (Изменение копилок).executor": "Run",
+    "Python tests.Python tests in PATCH.executor": "Run",
+    "Python tests.Python tests in POST.executor": "Run",
+    "Python tests.Python tests in test_common_patch.py.executor": "Run",
+    "Python tests.Python tests in test_currency_id_patch.py.executor": "Run",
+    "Python tests.Python tests in test_get_all.py.executor": "Run",
+    "Python tests.Python tests in test_get_by_id.py.executor": "Run",
+    "Python tests.Python tests in test_goal.py.executor": "Run",
+    "Python tests.Python tests in test_goal_patch.py.executor": "Run",
+    "Python tests.Python tests in test_is_archived_patch.py.executor": "Run",
+    "Python tests.Python tests in test_moneybox.py.executor": "Run",
+    "Python tests.Python tests in test_name_patch.py.executor": "Run",
+    "Python tests.Python tests in test_param_for_look.py.executor": "Run",
+    "Python tests.Python tests in test_to_date_patch.py.executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests\POST создание копилок" />
+      <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests\PATCH (Изменение копилок)" />
+      <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests\POST создание копилок\common_check" />
+      <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests\GET Получение всех копилок" />
+      <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in tests">
+    <configuration name="Python tests for Moneybox.tests.POST.test_name_field.TestName.test_08" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Moneybox.tests.POST.test_name_field.TestName.test_08&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Moneybox.tests.POST.test_to_date_field.TestToDate.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Moneybox.tests.POST.test_to_date_field.TestToDate.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_common_check.TestCommon.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_common_check.TestCommon.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in POST" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Moneybox/tests/POST&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Moneybox/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Python tests for Moneybox.tests.POST.test_to_date_field.TestToDate.test_01" />
+        <item itemvalue="Python tests.Python tests for Moneybox.tests.POST.test_name_field.TestName.test_08" />
+        <item itemvalue="Python tests.Python tests in POST" />
+        <item itemvalue="Python tests.Python tests for test_common_check.TestCommon.test_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="" />
+      <created>1724050586965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724050586965</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
