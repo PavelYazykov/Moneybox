@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="initial_1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_amount_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_amount_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_currency_id_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_currency_id_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_goal_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_goal_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_name_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_name_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_to_date_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_to_date_field.py" afterDir="false" />
+    <list default="true" id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="initial_2">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,13 +220,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725551934909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial_2">
+      <option name="closed" value="true" />
+      <created>1725553519918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725553519918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="initial_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial_1" />
+    <MESSAGE value="initial_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial_2" />
   </component>
 </project>

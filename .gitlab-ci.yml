@@ -4,6 +4,10 @@ workflow:
           when: never
         - when: always
 
+default:
+    tags:
+        - god_docker_01
+
 stages:
     - test
     - report
