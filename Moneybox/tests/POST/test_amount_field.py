@@ -35,6 +35,12 @@ class TestAmount:
             print(data['data']['wallet']['amount'])
             assert data['data']['wallet']['amount'] == '0'
 
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')
+
     @allure.description('Поле отсутствует')
     def test_02(self, auth_fixture):  # Тест будет падать
 
@@ -77,6 +83,12 @@ class TestAmount:
             print(data['data']['wallet']['amount'])
             assert data['data']['wallet']['amount'] == '100'
 
+        # """Удаление копилки"""
+        # with allure.step('Удаление копилки'):
+        #     moneybox_id = data['data']['id']
+        #     MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+        #     print('Копилка удалена')
+
     @allure.description('Вещественное число (5,5)')
     def test_04(self, auth_fixture):
 
@@ -96,4 +108,10 @@ class TestAmount:
             data = json.loads(result_text)
             print(data['data']['wallet']['amount'])
             assert data['data']['wallet']['amount'] == '5.5'
+
+        # """Удаление копилки"""
+        # with allure.step('Удаление копилки'):
+        #     moneybox_id = data['data']['id']
+        #     MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+        #     print('Копилка удалена')
 

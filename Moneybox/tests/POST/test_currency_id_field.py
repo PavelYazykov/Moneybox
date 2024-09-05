@@ -35,3 +35,9 @@ class TestCurrencyId:
             data = json.loads(result_text)
             assert data['data']['wallet']['currency_id'] == currency_id
             print('Значение поля currency_id соответствует введенному')
+
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')

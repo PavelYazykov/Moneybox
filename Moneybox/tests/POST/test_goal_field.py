@@ -37,6 +37,12 @@ class TestGoal:
             assert data['data']['goal'] == '1.00'
             print('Значение поля соответствует введенному')
 
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')
+
     @allure.description('Значение вещественное число = 0.01')
     def test_02(self, auth_fixture):
 
@@ -56,3 +62,9 @@ class TestGoal:
             data = json.loads(result_text)
             assert data['data']['goal'] == '0.01'
             print('Значение поля соответствует введенному')
+
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')

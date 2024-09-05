@@ -58,3 +58,10 @@ class TestCommon:
             for field in required_fields['data']['wallet']:
                 assert field in data['data']['wallet'], f"Отсутствует обязательное поле: {field}"
                 print(f'Обязательное поле {field} присутствует')
+
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')
+

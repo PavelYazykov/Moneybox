@@ -37,3 +37,9 @@ class TestToDate:
             data = json.loads(result_text)
             assert data['data']['to_date'] == '2024-12-30'
             print('Значение поля соответствует введенному')
+
+        """Удаление копилки"""
+        with allure.step('Удаление копилки'):
+            moneybox_id = data['data']['id']
+            MoneyboxMethods.delete_moneybox(moneybox_id, access_token)
+            print('Копилка удалена')

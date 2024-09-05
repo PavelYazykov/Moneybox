@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+    <list default="true" id="d210021f-245f-4440-8d3d-d3175e98dcd9" name="Changes" comment="initial_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_amount_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_amount_field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_currency_id_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_currency_id_field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_goal_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_goal_field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_name_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_name_field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneybox/tests/POST/test_to_date_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moneybox/tests/POST/test_to_date_field.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,64 +39,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_amount.TestAmount.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_common_check.TestCommon.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_common_patch.TestCommonPatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_common_patch.TestCommonPatch.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_currency_id.TestCurrencyId.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_delete.TestDelete.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_get_all.TestGetAll.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_get_all.TestGetAll.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_get_by_id.TestGetById.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_get_by_id.TestGetById.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_goal.TestGoal.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_goal_patch.TestGoalPatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_goal_patch.TestGoalPatch.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_goal_patch.TestGoalPatch.test_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_goal_patch.TestGoalPatch.test_03.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_moneybox.TestMoneybox.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_moneybox.TestMoneybox.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_moneybox.TestMoneybox.test_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name.TestName.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name.TestName.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name.TestName.test_08.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name_patch.TestNamePatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name_patch.TestNamePatch.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_name_patch.TestNamePatch.test_03.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_param_for_look.MyTest.test_001.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_param_for_look.TestMy.test_001.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_to_date.TestToDate.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_to_date_patch.TestToDate.test_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in GET_ALL.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in GET_BY_ID.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in PATCH (Изменение копилок).executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in PATCH.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in POST.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_common_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_currency_id_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_get_all.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_get_by_id.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_goal.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_goal_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_is_archived_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_moneybox.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_name_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_param_for_look.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_to_date_patch.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_amount.TestAmount.executor": "Run",
+    "Python tests.Python tests for test_common_check.TestCommon.test_01.executor": "Run",
+    "Python tests.Python tests for test_common_patch.TestCommonPatch.executor": "Run",
+    "Python tests.Python tests for test_common_patch.TestCommonPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_currency_id.TestCurrencyId.test_01.executor": "Run",
+    "Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.executor": "Run",
+    "Python tests.Python tests for test_currency_id_patch.TestCurrencyPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_delete.TestDelete.test_01.executor": "Run",
+    "Python tests.Python tests for test_get_all.TestGetAll.executor": "Run",
+    "Python tests.Python tests for test_get_all.TestGetAll.test_01.executor": "Run",
+    "Python tests.Python tests for test_get_by_id.TestGetById.executor": "Run",
+    "Python tests.Python tests for test_get_by_id.TestGetById.test_01.executor": "Run",
+    "Python tests.Python tests for test_goal.TestGoal.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_02.executor": "Run",
+    "Python tests.Python tests for test_goal_patch.TestGoalPatch.test_03.executor": "Run",
+    "Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.executor": "Run",
+    "Python tests.Python tests for test_is_archived_patch.TestIsArchivedPatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.test_01.executor": "Run",
+    "Python tests.Python tests for test_moneybox.TestMoneybox.test_02.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.test_01.executor": "Run",
+    "Python tests.Python tests for test_name.TestName.test_08.executor": "Run",
+    "Python tests.Python tests for test_name_field.TestName.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.test_01.executor": "Run",
+    "Python tests.Python tests for test_name_patch.TestNamePatch.test_03.executor": "Run",
+    "Python tests.Python tests for test_param_for_look.MyTest.test_001.executor": "Run",
+    "Python tests.Python tests for test_param_for_look.TestMy.test_001.executor": "Run",
+    "Python tests.Python tests for test_to_date.TestToDate.test_01.executor": "Run",
+    "Python tests.Python tests for test_to_date_patch.TestToDate.test_01.executor": "Run",
+    "Python tests.Python tests in GET_ALL.executor": "Run",
+    "Python tests.Python tests in GET_BY_ID.executor": "Run",
+    "Python tests.Python tests in PATCH (Изменение копилок).executor": "Run",
+    "Python tests.Python tests in PATCH.executor": "Run",
+    "Python tests.Python tests in POST.executor": "Run",
+    "Python tests.Python tests in test_common_check.py.executor": "Run",
+    "Python tests.Python tests in test_common_patch.py.executor": "Run",
+    "Python tests.Python tests in test_currency_id_patch.py.executor": "Run",
+    "Python tests.Python tests in test_get_all.py.executor": "Run",
+    "Python tests.Python tests in test_get_by_id.py.executor": "Run",
+    "Python tests.Python tests in test_goal.py.executor": "Run",
+    "Python tests.Python tests in test_goal_patch.py.executor": "Run",
+    "Python tests.Python tests in test_is_archived_patch.py.executor": "Run",
+    "Python tests.Python tests in test_moneybox.py.executor": "Run",
+    "Python tests.Python tests in test_name_patch.py.executor": "Run",
+    "Python tests.Python tests in test_param_for_look.py.executor": "Run",
+    "Python tests.Python tests in test_to_date_patch.py.executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests\POST создание копилок" />
@@ -101,22 +108,7 @@
       <recent name="C:\Users\Pavel\PycharmProjects\Budget_api\Moneybox\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in tests">
-    <configuration name="Python tests for Moneybox.tests.POST.test_name_field.TestName.test_08" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Budget_api" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Moneybox.tests.POST.test_name_field.TestName.test_08&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_name_field.TestName">
     <configuration name="Python tests for Moneybox.tests.POST.test_to_date_field.TestToDate.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Budget_api" />
       <option name="ENV_FILES" value="" />
@@ -147,7 +139,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in POST" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_name_field.TestName" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Budget_api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,7 +150,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Moneybox/tests/POST&quot;" />
+      <option name="_new_target" value="&quot;test_name_field.TestName&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_common_check.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Budget_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Moneybox/tests/POST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Moneybox/tests/POST/test_common_check.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -179,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_name_field.TestName" />
+        <item itemvalue="Python tests.Python tests in test_common_check.py" />
+        <item itemvalue="Python tests.Python tests for test_common_check.TestCommon.test_01" />
         <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests for Moneybox.tests.POST.test_to_date_field.TestToDate.test_01" />
-        <item itemvalue="Python tests.Python tests for Moneybox.tests.POST.test_name_field.TestName.test_08" />
-        <item itemvalue="Python tests.Python tests in POST" />
-        <item itemvalue="Python tests.Python tests for test_common_check.TestCommon.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725464370582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial_1">
+      <option name="closed" value="true" />
+      <created>1725551934909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725551934909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="initial_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial_1" />
   </component>
 </project>
