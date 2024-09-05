@@ -6,7 +6,7 @@ workflow:
 
 default:
     tags:
-        - god_docker_01
+        - god_docker_02
 
 stages:
     - test
