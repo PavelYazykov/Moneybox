@@ -30,9 +30,8 @@ jobs:
         run:  sudo apt-get install google-chrome-stable
       - name: install dependencies
         run: pip install -r requirements.txt
-      - name: Run test
-        run: pytest
-      - name: run all tests
+      - name: moneybox_test
+        if: "github.event.inputs.deployment_target == 'moneybox_test'"
         run:  pytest --alluredir=allure-results
       - name: Store allure results
         uses: actions/upload-artifact@v3
