@@ -6,9 +6,9 @@ on:
       deployment-target:
         description: Chose target
         required: true
-        default:
-          type: choice
-          options:
+        default: moneybox_test
+        type: choice
+        options:
             - moneybox_test
 
 permissions:
