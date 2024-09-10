@@ -1,7 +1,6 @@
 name: Moneybox test
 
 on:
-  # push
   workflow_dispatch:
     inputs:
       deployment-target:
@@ -34,8 +33,8 @@ jobs:
       - name: Download all workflow run artifacts
         uses: actions/download-artifact@v3
       - name: all
-        if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest --alluredir=allure-results
+        # if: "github.event.inputs.deployment_target == 'all'"
+        run: pytest Moneybox/tests --alluredir=allure-results
         continue-on-error: true
       - name: Store allure results
         uses: actions/upload-artifact@v3
