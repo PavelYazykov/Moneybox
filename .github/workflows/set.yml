@@ -1,16 +1,16 @@
 name: Moneybox test
 
 on:
-  push
-  # workflow_dispatch:
-  #   inputs:
-  #     deployment-target:
-  #       description: Chose target
-  #       required: true
-  #       default: moneybox_test
-  #       type: choice
-  #       options:
-  #           - all
+  # push
+  workflow_dispatch:
+    inputs:
+      deployment-target:
+        description: Chose target
+        required: true
+        default: all
+        type: choice
+        options:
+            - all
 
 permissions:
   contents: read
